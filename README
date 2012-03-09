@@ -1,0 +1,21 @@
+Linux Essentials
+================
+
+A collection of config files, scripts and stuff in general that makes up 
+Kelvin's Linux environment.
+
+Notable Collections
+-------------------
+1) No. You won't find my SSH keys in here.
+
+install.sh
+----------
+if present, install.sh in each directory is called by the master install.sh
+in root directory to install and initialize packages.
+
+install.sh should return:
+* 0 on success.
+* 255 on non-recoverable failures. such as config file not found.
+* 254 on root permission required. master install.sh will auto retry with "sudo".
+
+On error, individual scripts should print a message to screen. 

@@ -1,0 +1,12 @@
+[user]
+	name = Kelvin Chan
+	email = kelvin.chan@positronics.com
+[color]
+	diff = auto
+	status = auto
+[diff]
+	tool = meld
+[core]
+	editor = vim
+[grep]
+	lineNumber = true

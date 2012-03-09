@@ -1,0 +1,49 @@
+# binary files
+build/*
+dist/*
+bin/*
+*.class
+
+# compressed files
+*.jar
+
+# OS specific junks
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# text editor leftovers
+*~
+*.swp
+
+# project specific junk
+generated/*
+configs/server/*
+logs/*
+applet.policy
+log4j.xml
+
+# IDE
+.settings/*
+nbproject/private/*
+nbproject/profiler-build-impl.xml
+
+# project specific
+!*.sample
+classes/*
+*.properties
+*.xml
+.*.lock
+*.log
+felix-cache/
+lib/logging.properties
+
+# javadocs
+doc/*
+wave_doc/*
+wave_doc
+javadocs/
+
+# DO NOT IGNORED
+!jre/*
+!*.sample

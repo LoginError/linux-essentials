@@ -1,0 +1,21 @@
+" general behaviour
+filetype on
+set number 
+
+" syntax highlighting
+syntax on
+colorscheme desert
+set background=dark
+
+" tabs
+set autoindent smartindent 
+set tabstop=8
+set shiftwidth=8
+set noexpandtab
+
+set hls
+set incsearch
+
+" misc
+set showmatch
+set popt=paper:letter,duplex:long,number:y

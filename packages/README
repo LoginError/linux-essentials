@@ -1,0 +1,15 @@
+apt-get packages
+================
+
+add debian package names to packages file and use install.sh to install them.
+
+packages file
+-------------
+# is not treated as comments.
+one or more packages per line.
+all lines are read as packages names. 
+new lines are ignored.
+
+install.sh
+----------
+just run it. no CLI parameters.

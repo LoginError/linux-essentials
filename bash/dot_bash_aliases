@@ -1,0 +1,4 @@
+#!/bin/sh 
+
+alias rm='rm -v'
+alias cp='cp -v'
